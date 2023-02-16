@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: #D0E1F9;
+  background-color: #1E1F26;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: aqua;
+}
+
+.previewer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &__title {
+    margin: 0 0 10px 0;
+  }
+
+  &__editor {
+    resize: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 500px;
+    height: 20vh;
+    margin-bottom: 20px;
+    color: #D0E1F9;
+    background-color: #283655;
+  }
+
+  &__preview {
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 60vh;
+    overflow: scroll;
+    color: #D0E1F9;
+    background-color: #283655;
+  }
+}
